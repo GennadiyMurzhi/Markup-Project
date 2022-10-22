@@ -7,8 +7,8 @@ class MarkupApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Wallet App',
-      home: ItemsScreen(items: generateLisItems()),
+      title: 'Markup App',
+      home: ItemsScreen(items: generateListItems()),
     );
   }
 }
